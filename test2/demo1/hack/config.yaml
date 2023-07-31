@@ -1,0 +1,7 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  gen:
+    dao:
+      - link:     "mysql:main:123@tcp(172.16.19.46:3108)/paperless"

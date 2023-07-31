@@ -1,0 +1,20 @@
+###
+POST http://localhost:8004/api
+
+###
+GET http://localhost:8004/api
+
+###
+GET http://localhost:8004/api/hello?name=名称
+
+###
+POST http://localhost:8004/api/test?name=名称&age=100
+
+###
+POST http://localhost:8004/api/test2?passport=8000&password=pwd
+
+###
+POST http://localhost:8004/api/test3
+
+###
+POST http://localhost:8004/api/test4

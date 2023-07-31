@@ -1,0 +1,34 @@
+server:
+  address:     ":8000"
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+
+logger:
+  level : "all"
+  stdout: true
+
+
+#database:
+#  default:
+#    link: "mysql:main:123@tcp(172.16.19.46:3108)/paperless?loc=Local&parseTime=true"
+
+
+#database:
+#  default:
+#    host:          "172.16.19.46"
+#    port:          "3108"
+#    user:          "main"
+#    pass:          "123"
+#    name:          "paperless"
+#    type:          "mysql"
+#    extra:         "local=Local&parseTime=true"
+#    role:          "master"
+#    debug:         "true"
+#    dryrun:        0
+#    weight:        "100"
+#    prefix:        "gf_"
+#    charset:       "utf8"
+#    timezone:      "local"
+#    maxIdle:       "10"
+#    maxOpen:       "100"
+#    maxLifetime:   "30s"
